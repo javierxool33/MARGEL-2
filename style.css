@@ -164,7 +164,7 @@ main{
 
 .inov-dev {
     transition: all 1.5s linear;
-    background-image: url("/img/inovation.jpg");
+    background-image: url("./inovation.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -240,7 +240,7 @@ main{
 }
 .natur-dev{
     transition: all 1.5s linear;
-    background-image: url("/img/laser.jpeg");
+    background-image: url("./laser.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 
