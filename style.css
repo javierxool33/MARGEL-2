@@ -262,7 +262,7 @@ main{
 }
 .natur-dev{
     transition: all 1.5s linear;
-    background-image: url("/laser.jpeg");
+    background-image: url("./laser.jpeg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
