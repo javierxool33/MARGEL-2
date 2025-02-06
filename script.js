@@ -1,5 +1,6 @@
-window.onload = function() {
-    setTimeout(function() {
-        document.getElementById('cuerpo-dev1').style.display = 'block';
-    }, 10000); // 10000 milisegundos = 10 segundos
-};
+function enviarwhat() {
+    const numero = "5539583855";
+    const mensaje = "Me interesa el servicio";
+    const url = `https://wa.me/${numero}?text=${encodeURIComponent(mensaje)}`;
+    window.open(url, '_blank');
+}
